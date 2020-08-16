@@ -1,0 +1,560 @@
+/* ############################################ CSS for HOME PAGE ############################## */
+
+img {
+    width: 100%;
+}
+
+
+/* ####################### CSS for contain1 class ################## */
+
+.contain1 {
+    background-color: rgba(0, 0, 9, 0.5);
+    padding: 40px;
+}
+
+.contain1 p {
+    font-size: 2.6rem;
+    color: rgb(150, 137, 204);
+}
+
+.contain1-part {
+    margin: 5% 0% 0% 5%;
+}
+
+.contain1-part hr {
+    border: 1px solid white;
+    display: inline-block;
+    width: 70%;
+    margin-right: 10%;
+}
+
+.contain1-part a {
+    display: inline-block;
+    width: 16%;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.contain1-part a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 17%;
+}
+
+
+/* ################################################################ */
+
+
+/* ############### CSS for banner ############ */
+
+#banner {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 9, 0.5);
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slideshow-container {
+    width: 100%;
+}
+
+.myslides {
+    width: 95%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 25px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    font-weight: bold;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.des {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 25px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.act,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    width: 100%;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.fade img {
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/* ############################################################## */
+
+
+/* ############# CSS for para2 class ############## */
+
+.vabout {
+    border-left: 2px solid white;
+    height: 500px;
+    left: 50%;
+    margin-left: 10%;
+    top: 0;
+    padding-right: 60px;
+}
+
+.para2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 9, 0.5);
+    /* border: 2px solid black; */
+    margin-bottom: 100px;
+}
+
+.leftpara2 {
+    width: 70%;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-self: left;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.text h3 {
+    color: rgb(150, 137, 204);
+    font-size: 50px;
+}
+
+.text p {
+    color: white;
+    font-size: 25px;
+}
+
+
+/* ############################################################## */
+
+
+/* ############# CSS for section class ################### */
+
+.section {
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section hr {
+    padding-left: 10px;
+    width: 90%;
+    border: 1px solid white;
+}
+
+
+/* ###################################################### */
+
+
+/* ############# CSS for image-container id ######### */
+
+#image-container {
+    background-color: rgba(0, 0, 9, 0.5);
+    background-color: none;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 40%;
+    margin: 5px 25px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.images>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.4s;
+}
+
+.link {
+    opacity: 0.6;
+}
+
+.images>a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+/* ###################################################### */
+
+
+/* ############# CSS for contact id ######### */
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+.contact {
+    width: 27%;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+
+/* ###################################################### */
+
+
+/* ############# CSS for image-container class ######### */
+
+.image-container {
+    width: 100%;
+    background-color: rgba(0, 0, 9, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    width: 40%;
+    margin: 5px 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.caption {
+    background-color: rgba(0, 0, 9, 0.5);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    /* border: 2px solid green; */
+    margin-top: 100px;
+}
+
+.content-text {
+    margin-left: 5%;
+}
+
+.content-text>p {
+    display: inline-block;
+    width: 22%;
+    color: white;
+    /* border: 1px solid blue; */
+    margin: 2% 5% 0% 0%;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+}
+
+.content-text>hr {
+    display: inline-block;
+    position: absolute;
+    margin: 2%;
+    width: 52%;
+    border: 1px solid white;
+}
+
+
+/* ###################################################### */
+
+
+/* ############# CSS for image-container2 id ######### */
+
+#image-container2 {
+    background-color: rgba(0, 0, 9, 0.5);
+    background-color: none;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images2 {
+    width: 25%;
+    margin: 5px 25px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.images2>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.4s;
+}
+
+.link {
+    opacity: 0.6;
+}
+
+.images2>a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.images2>p {
+    width: 100%;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.images2>hr {
+    width: 100%;
+    font-size: 2px;
+    border: 1px solid white;
+}
+
+
+/* ###################################################### */
+
+
+/* ################ CSS for responsive ################ */
+
+@media (min-width:901px) and (max-width:1100px) {
+    .vabout {
+        height: 700px;
+    }
+}
+
+@media (min-width:701px) and (max-width:900px) {
+    .text h3 {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:501px) and (max-width:700px) {
+    .text h3 {
+        font-size: 30px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .vabout {
+        height: 400px;
+    }
+    .text h3 {
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:300px) and (max-width:900px) {
+    #image-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #image-container2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .images {
+        width: 80%;
+    }
+    .image {
+        width: 80%;
+    }
+    .images2 {
+        width: 80%;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 300px) {
+    .contain1 {
+        padding: 0px 0px 40px 0px;
+        padding-left: 20px;
+    }
+    .contain1-part hr {
+        width: 40%;
+    }
+    .contain1-part a {
+        border: 1px solid white;
+        padding: 10px;
+    }
+    .contain1-part hr {
+        width: 40%;
+    }
+    .contain1-part a {
+        width: 30%;
+    }
+    .content-text p {
+        display: inline-block;
+        width: 60%;
+    }
+    .content-text hr {
+        width: 30%;
+    }
+}
+
+@media (min-width:300px) and (max-width:600px) {
+    .contain1 {
+        font-size: 1.0rem;
+    }
+}
+
+
+/* ###################################################### */

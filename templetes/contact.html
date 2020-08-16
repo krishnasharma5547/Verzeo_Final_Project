@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="..\static\css\contact.css">
+    <link rel="stylesheet" href="..\static\css\common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- <div id="container"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h3>INTERIOR<span>DESIGN</span></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/project/">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/publication/">Publications</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div id="content">
+
+        <div id="para1">
+            <div id="leftpara1">
+                <h1>CONTACT US, WE WILL ASSIST YOU</h1>
+            </div>
+            <div id="rightpara1">
+                <p>Lorem ipsum dolor sit amet, cons ectetur adipis cing elit, sekido alor eiusmod oplot tempor alor incididunt labore et dolore magna epoyt aliqua erolp shulp sed adip lrty opti iscing diam donec facilisi nullam vehicula ipsum atdi arcu cursus
+                    off vitae congue amet estyt.
+                </p>
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="https://library.elementor.com/interior-design/wp-content/uploads/sites/10/2020/02/Contact-Pic.png" alt="">
+        </div>
+
+        <div id="contact">
+            <div class="contact">
+                <h3 style="color:rgb(185, 166, 166); text-align: center;">LOCATION</h3>
+                <p style="color:whitesmoke; text-align: center;">2769 BLACK OAK HOLLOW ROAD, SAN FRANCISCO</p>
+            </div>
+            <div class="contact">
+                <h3 style="color:rgb(185, 166, 166); text-align: center;">PHONE</h3>
+                <p style="color:whitesmoke; text-align: center;">408-821-3682</p>
+            </div>
+            <div class="contact">
+                <h3 style="color:rgb(185, 166, 166); text-align: center;">EMAIL</h3>
+                <p style="color:whitesmoke; text-align: center;">INFO@DESIGNFORM.COM</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="slogen">
+                KEEP
+                <br>
+                <strong>IN TOUCH</strong>
+            </div>
+            <div id="details">
+                <form action="/contact/" method="POST">
+                {% csrf_token %}
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+                    <button type="submit" id="submit-button" class="form-control">submit
+            </div>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>MORE PROJECTS</h2>
+            <hr>
+        </div>
+
+        <div id="image-container">
+            <div class="images"><a href="/whitebrickhome/"><img src="https://library.elementor.com/interior-design/wp-content/uploads/sites/10/2020/02/Project-6-1.png" alt=""></a>
+
+                <a class="link" href="/whitebrickhome/">WHITE BRICK HOME</a>
+                
+            </div>
+            <div class="images"> <a href="/XSECELTIC/"><img src="https://library.elementor.com/interior-design/wp-content/uploads/sites/10/2020/02/Project-7-1.png" alt=""></a>
+
+                <a class="link" href="/XSECELTIC/"> XS ECLECTIC APARTMENT</a>
+                
+            </div>
+        </div>
+            
+        <div id="footer">
+            <!-- <hr> -->
+            <p id="head">SOCIAL MEDIA</p>
+            <div id="social-media">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+            </div>
+
+
+            <p style="padding:3px;">Infodesign@form</p>
+            <p style="padding:3px;">@ All Rights Reserved 2020</p>
+
+        </div>
+        <!-- </div> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+/* ############################## CSS for CONTACT PAGE ############################### */
+
+
+/* ################ CSS for para1 id #################### */
+
+#para1 {
+    /* border: 2px soild black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#leftpara1 {
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 40%;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-self: left;
+    font-size: 2.0em;
+    color: rgb(150, 137, 204);
+    padding-left: 20px;
+}
+
+#rightpara1 {
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    width: 45%;
+    margin: 10px;
+    text-align: left;
+    font-family: "montserrat", Sans-serif;
+    ;
+    font-size: 1.2em;
+    color: white;
+    padding-left: 20px;
+}
+
+
+/* ######################################################### */
+
+
+/* ############### CSS for banne id ####################### */
+
+img {
+    width: 90%;
+}
+
+#banner {
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ######################################################### */
+
+
+/* ################# CSS for contact id ###################### */
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+.contact {
+    width: 27%;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+
+/* ######################################################### */
+
+
+/* ############# CSS for container class ################## */
+
+.container {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#slogen {
+    width: 15%;
+    font-size: 30px;
+    border-left: 2px solid white;
+    padding: 25px;
+    padding-top: 150px;
+    color: rgb(150, 137, 204);
+}
+
+#details {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-control {
+    width: 90%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+#submit-button {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+    margin-left: 150px;
+    background-color: grey;
+    color: white;
+}
+
+#submit-button:hover {
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* ######################################################### */
+
+
+/* ################ CSS for section class ################### */
+
+.section {
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section hr {
+    padding-left: 10px;
+    width: 90%;
+    border: 1px solid white;
+}
+
+
+/* ######################################################### */
+
+
+/* ############## CSS for image-container id #################### */
+
+#image-container {
+    background-color: rgba(0, 0, 9, 0.5);
+    background-color: none;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 40%;
+    margin: 5px 25px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.images>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 0.4s;
+}
+
+.link {
+    opacity: 0.6;
+}
+
+.images>a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+/* ######################################################### */
+
+
+/* ############### CSS for responsive ################## */
+
+@media (min-width:300px) and (max-width:1000px) {
+    #para1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 100px;
+    }
+    #leftpara1 {
+        text-align: center;
+        width: 90%;
+    }
+    #leftpara1 {
+        width: 90%;
+    }
+    #banner {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #contact {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #image-container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #footer {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width:300px) and (max-width:800px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #slogen {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-bottom: 10%;
+        height: 10%;
+    }
+    #details {
+        width: 90%;
+        /* margin-left: 0px;
+        margin-right: auto; */
+        align-items: center;
+    }
+    #details form {
+        width: 90%;
+    }
+    .form-control {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #submit-button {
+        width: 40%;
+        margin-left: 27%;
+        margin-bottom: 5%;
+    }
+    #image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .images {
+        width: 90%;
+    }
+}
+
+@media (min-width:601px) and (max-width:799px) {
+    #rightpara1 {
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    #leftpara1 {
+        font-size: 1.4em;
+    }
+    #rightpara1 {
+        font-size: 1.0em;
+    }
+    .images {
+        font-size: 15px;
+    }
+    .section h2 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px) {
+    #rightpara1 {
+        font-size: 0.8em;
+    }
+    .images {
+        font-size: 12px;
+    }
+    .section h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* ######################################################### */

@@ -1,0 +1,348 @@
+/* ############################## CSS for ALL PROJECT INTERNAL PAGE ############################### */
+
+
+/* ################ CSS for para1 ####################### */
+
+#para1 {
+    /* border: 2px soild black; */
+    color: rgb(150, 137, 204);
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 9, 0.5);
+    font-size: 2.0em;
+    padding-left: 15%;
+}
+
+#para1 h1 {
+    font-size: 2.5em;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* ############################################################## */
+
+
+/* ################ CSS for banner class ######################## */
+
+img {
+    width: 90%;
+}
+
+.banner {
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ############################################################## */
+
+
+/* ################ CSS for contact id ####################### */
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+.contact {
+    width: 25%;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+
+/* ############################################################## */
+
+
+/* #################### CSS for para3 id ######################### */
+
+#para3 {
+    /* border: 2px soild black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#leftpara3 {
+    width: 40%;
+}
+
+#leftpara3 hr {
+    /* padding-top: 10px; */
+    margin-right: auto;
+    margin-left: 10%;
+    width: 100%;
+    font-size: 3px;
+    border: 1px solid white;
+}
+
+#rightpara3 {
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: 15%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ############################################################## */
+
+
+/* ################# CSS for section class ####################### */
+
+.section {
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section hr {
+    padding-left: 10px;
+    width: 90%;
+    border: 1px solid white;
+}
+
+
+/* ############################################################## */
+
+
+/* ################ CSS for image-container id ###################### */
+
+.image-container {
+    background-color: rgba(0, 0, 9, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#image-container {
+    background-color: rgba(0, 0, 9, 0.5);
+    background-color: none;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 45%;
+    margin: 5px 25px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.images>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    padding: 4px;
+}
+
+.link {
+    opacity: 0.6;
+}
+
+.images>a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+/* ############################################################## */
+
+
+/* ############### CSS for make responsive ################ */
+
+@media (min-width:801px) and (max-width:1000px) {
+    #para1 h1 {
+        font-size: 2.2em;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+    #leftpara3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    #para1 h1 {
+        font-size: 1.9em;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+    #para3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara3 {
+        width: 75%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+        ;
+    }
+    #rightpara3 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        font-size: 17px;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    #para1 h1 {
+        font-size: 1.6em;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+    #para3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara3 {
+        width: 75%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+        ;
+    }
+    #rightpara3 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        font-size: 15px;
+    }
+    .images {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px) {
+    #para1 h1 {
+        font-size: 1.3em;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: 60%;
+    }
+    #para3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara3 {
+        width: 75%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+        ;
+    }
+    #rightpara3 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        font-size: 11px;
+    }
+    .images {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:300px)and (max-width:1000px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #image-conatiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .images {
+        width: 90%;
+    }
+}
+
+
+/* ############################################################## */

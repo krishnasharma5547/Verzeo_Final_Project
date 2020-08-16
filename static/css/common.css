@@ -1,0 +1,135 @@
+/* ############################## CSS for COMMAN TAGS LIKE NAVIGATION, FOOTER ############################### */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    border: 2px solid black;
+    background-image: url('bg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+span {
+    font-size: 1.5em;
+    color: rgb(106, 183, 209);
+}
+
+
+/* ######################## CSS for navigation bar#################### */
+
+.navbar-nav a {
+    color: black;
+    font-size: 25px;
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .navbar-toggler-icon {
+        font-size: 19px;
+    }
+    .navbar-brand h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1000px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: flex-end;
+        /* border: 1px solid green; */
+        margin-left: auto;
+        margin-right: 2px;
+    }
+    .navbar-nav a {
+        margin: 0px 5px;
+        padding: 4px 16px;
+        color: black;
+        transition: 0.4s;
+    }
+    .navbar-nav a:hover {
+        text-decoration: none;
+        color: white;
+        color: #3498db;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
+
+
+/* ################################################################### */
+
+
+/*############# CSS for footer ##############*/
+
+#footer {
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+
+#social-media {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    /* border: 1px solid black; */
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+
+#social-media {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#head {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#social-media a {
+    padding: 20px;
+    transition: 0.4s;
+}
+
+#social-media a:hover {
+    font-size: 25px;
+}
+
+
+/* ############################################ */

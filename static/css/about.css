@@ -1,0 +1,613 @@
+/* ############################## CSS for ABOUT PAGE ############################### */
+
+
+/* #############CSS for para1 id ########## */
+
+#para1 {
+    /* border: 2px soild black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#leftpara1 {
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 40%;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-self: left;
+    font-size: 2.5rem;
+    color: rgb(150, 137, 204);
+    padding-left: 20px;
+}
+
+#rightpara1 {
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    width: 45%;
+    margin: 10px;
+    text-align: left;
+    font-family: "montserrat", Sans-serif;
+    ;
+    font-size: 1.2em;
+    color: white;
+    padding-left: 20px;
+}
+
+
+/* ####################################### */
+
+
+/* ###############CSS for banner ############ */
+
+img {
+    width: 90%;
+}
+
+#banner {
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ######################################## */
+
+
+/* ############# CSS for para2 id ############## */
+
+#para2 {
+    /* border: 2px soild black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+.vabout {
+    border-left: 2px solid white;
+    height: 400px;
+    left: 50%;
+    margin-left: 10%;
+    top: 0;
+    padding-right: 60px;
+}
+
+#leftpara2 {
+    /* border: 2px solid red; */
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 40%;
+    height: 420px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-self: left;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.text h3 {
+    color: rgb(150, 137, 204);
+    font-size: 50px;
+}
+
+.text p {
+    color: white;
+    font-size: 25px;
+}
+
+#rightpara2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+/* ############################################ */
+
+
+/* ############# CSS for para3 id ################*/
+
+#para3 {
+    /* border: 2px soild black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#leftpara3 {
+    width: 40%;
+}
+
+#leftpara3 hr {
+    /* padding-top: 10px; */
+    margin-right: auto;
+    margin-left: 10%;
+    width: 100%;
+    font-size: 3px;
+    border: 1px solid white;
+}
+
+#rightpara3 {
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: 15%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ############################################# */
+
+
+/* ############# CSS for para4 id ################*/
+
+#para4 {
+    /* border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 9, 0.5);
+}
+
+#leftpara4 {
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 500px;
+    left: 50%;
+    margin-left: 10%;
+    top: 0;
+    padding-right: 60px;
+}
+
+#rightpara4 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+#rightpara4 p {
+    font-size: 20px;
+}
+
+
+/* ############################################# */
+
+
+/* ############# CSS for image-container id ######### */
+
+#image-container {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 9, 0.5);
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.container1 {
+    /* border: 1x solid red; */
+    width: 27%;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.container1 img {
+    width: 95%;
+    transition: 0.5s all ease-in-out;
+    margin-bottom: 15px;
+}
+
+.container1:hover img {
+    transform: scale(1.1);
+}
+
+
+/* ################################################# */
+
+
+/* ################ CSS for responsive ################ */
+
+@media (min-width:701px) and (max-width: 1000px) {
+    #para1 {
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+    #leftpara1 {
+        /* font-size: 1.8rem; */
+        width: 90%;
+    }
+    #rightpara1 {
+        /* font-size: 1.3rem; */
+        width: 90%;
+    }
+    #banner {
+        margin-top: 80px;
+    }
+    #para2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    #leftpara2 {
+        width: 90%;
+    }
+    #rightpara2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vabout {
+        height: 350px;
+    }
+    .text h3 {
+        color: rgb(150, 137, 204);
+        font-size: 45px;
+    }
+    .text p {
+        color: white;
+        font-size: 22px;
+    }
+    #para3 {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    #leftpara3 {
+        width: 90%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #rightpara3 {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #para4 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    #image-container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #leftpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #rightpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width:701px) and (max-width: 850px) {
+    #para1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara1 {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+    #rightpara1 {
+        font-size: 1.3rem;
+        width: 80%;
+    }
+    #image-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container1 {
+        margin: 10px 10px 10px 14px;
+        width: 90%;
+    }
+}
+
+@media (min-width:451px) and (max-width: 700px) {
+    #para1 {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara1 {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+    #rightpara1 {
+        font-size: 1.3rem;
+        width: 80%;
+    }
+    #banner {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #para2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #leftpara2 {
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #rightpara2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vabout {
+        height: 250px;
+    }
+    .text h3 {
+        color: rgb(150, 137, 204);
+        font-size: 40px;
+    }
+    .text p {
+        color: white;
+        font-size: 20px;
+    }
+    #para3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #leftpara3 {
+        width: 90%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #rightpara3 {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #para4 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #leftpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #rightpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #image-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container1 {
+        margin: 10px 10px 10px 14px;
+        width: 90%;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width:300px) and (max-width: 600px) {
+    #para2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara2 {
+        width: 90%;
+        /*  */
+    }
+    #rightpara2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vabout {
+        height: 250px;
+    }
+    .text h3 {
+        color: rgb(150, 137, 204);
+        font-size: 35px;
+    }
+    .text p {
+        color: white;
+        font-size: 17px;
+    }
+    #para3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara3 {
+        width: 90%;
+    }
+    #leftpara3 hr {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #rightpara3 {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #para4 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #leftpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #rightpara4 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:300px) and (max-width: 450px) {
+    #para1 {
+        /* margin-top: 100px; */
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #leftpara1 {
+        font-size: 1.3rem;
+        width: 70%;
+    }
+    #rightpara1 {
+        font-size: 0.9rem;
+        width: 70%;
+    }
+    #banner {
+        margin-top: 150px;
+    }
+    #para2 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #para3 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #para4 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #image-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container1 {
+        margin: 10px 10px 10px 14px;
+        width: 90%;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+}
+
+
+/* #################################################### */
